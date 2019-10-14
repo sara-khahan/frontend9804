@@ -1,0 +1,835 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Calibri;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+/*********header*********/
+.header{
+    width: 1000px;
+    height: 80px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 220px;
+    bottom: 0;
+    margin:auto;
+    padding-right:20px;
+    padding-left: 300px;
+    font-size: 10px;
+}
+.header .h-r{
+    position: absolute;
+    top: 12px;
+    left: 700px;
+    width:50%;
+    float: right;
+}
+.header .h-r ul{}
+.header .h-r ul li{
+    display: inline-block;
+    padding-left: 12px;
+}
+.header .h-r ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.header .h-l{
+    position: absolute;
+    left: 50px;
+    width:50%;
+    float: left;
+}
+.header .h-l h2{
+    position: absolute;
+    color: #1b1e21;
+    left:300px ;
+    top: 12px;
+}
+.h-l img{
+    position: absolute;
+    top:17px;
+    left:265px;
+}
+/*******header*******/
+/**********box1******/
+.container .box1{
+    background: url("./project/back1.jpg") no-repeat;
+    background-size: 1200px;
+    width: 1200px;
+    height: 350px;
+    box-sizing: border-box;
+    margin: auto;
+    position: absolute;
+    top: 130px;
+}
+.box1 h1{
+    color:white;
+    text-align: center;
+    margin-top: 52px;
+}
+.box1 p{
+    color:#949391;
+    text-align: center;
+}
+.box1 button{
+    color:white;
+    background-color:#7BC476;
+    width:130px;
+    height: 40px;
+    border-radius:40px ;
+    border: none;
+    display: block;
+    font-size: x-small;
+    position: absolute;
+    top: 230px;
+    left: 45%;
+    right:55%;
+}
+/********box1*******/
+/********box2*******/
+.container .box2{
+    width:1200px;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    top: 1300px;
+    bottom: 0;
+    background-color: white;
+    z-index: 5;
+}
+.box2 h2{color: black;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 480px;
+}
+.box2 p {
+    color: gray;
+    text-align: center;
+    position: absolute;
+    top: 73px;
+    left: 500px;
+    font-size: small;
+}
+.yek img{
+    position: absolute;
+    top: 140px;
+    left: 360px;
+}
+.yek h3{
+    position: absolute;
+    top: 200px;
+    left: 340px;
+    font-size: small;
+}
+.yek h6{
+    font-size: x-small;
+    color:darkgray ;
+    position: absolute;
+    top: 210px;
+    left: 315px;
+}
+.do img{
+    position: absolute;
+    top: 140px;
+    left: 560px;
+}
+.do h3{
+    position: absolute;
+    top: 200px;
+    left: 560px;
+    font-size: small;
+}
+.do h6{
+    font-size: x-small;
+    color:darkgray ;
+    position: absolute;
+    top: 210px;
+    left:530px;
+}
+.se img{
+    position: absolute;
+    top: 140px;
+    left: 760px;
+}
+.se h3{
+    position: absolute;
+    top: 200px;
+    left: 760px;
+    font-size: small;
+}
+.se h6{
+    font-size: x-small;
+    color:darkgray ;
+    position: absolute;
+    top: 210px;
+    left:740px;
+}
+/*********box2******/
+/*********box3******/
+.container .box3{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top:2000px;
+    bottom: 0;
+}
+.container .box3 .right{
+    position: absolute;
+    right: 0;
+    width: 65%;
+    height: 400px;
+    margin: auto;
+    background: url("./project/sea.jpg")  no-repeat;
+    background-size: 1000px 450px;
+    z-index: 4;
+}
+.one h2{
+    text-align: left;
+    position: absolute;
+    top:13px;
+    left: 24px;
+    color: white;
+    padding-top: 10px;
+}
+h2 span{
+    color: #7BC476;
+}
+.two p{
+    color: darkgray;
+    text-align: left;
+    position: absolute;
+    top:111px;
+    left:29px;
+    font-size:small;
+}
+.three .th-right p{
+    color: darkgray;
+    font-size: small;
+    text-align: left;
+    position: absolute;
+    top:148px;
+    left:55px;
+}
+.three .th-left i {
+    color: darkgray;
+    text-align: left;
+    position: absolute;
+    top: 163px;
+    left: 30px;
+}
+.four .f-right p{
+    color: darkgray;
+    font-size: small;
+    text-align: left;
+    position: absolute;
+    top:171px;
+    left:55px;
+}
+.four .f-left i {
+    color: darkgray;
+    text-align: left;
+    position: absolute;
+    top: 188px;
+    left: 30px;
+}
+.five .fi-right p{
+
+    color: darkgray;
+    font-size: small;
+    text-align: left;
+    position: absolute;
+    top:195px;
+    left:55px;
+}
+.five .fi-left i {
+    color: darkgray;
+    text-align: left;
+    position: absolute;
+    top: 213px;
+    left: 30px;
+}
+.six button{
+    color:white;
+    background-color:#7BC476;
+    width:100px;
+    height: 36px;
+    border-radius:40px ;
+    border: none;
+    font-size: x-small;
+    position: absolute;
+    top: 253px;
+    left: 31px;
+}
+.container .box3 .left{
+    width: 500px;
+    height: 100%;
+    background-color:#e8e8e8;
+    z-index: 3;
+    position: absolute;
+}
+.container .box3 .left i {
+    font-size: 520px;
+    position: absolute;
+    top: -44px;
+    left: 204px;
+    color: white;
+}
+/*******box3*******/
+/*******box4*******/
+.container .box4{
+    width:1200px ;
+    height:500px ;
+    position: absolute;
+    top: 1200px;
+    margin: auto;
+    background: white url("./project/back4.jpg") no-repeat 800px 50px;
+    z-index: 5;
+}
+.box4 h2{
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.box4 p{color: darkgray;
+    text-align: center;
+    font-size: small;
+    position: absolute;
+    top: 60px;
+    left: 510px;
+}
+.a-box {
+    width: 500px;
+    height: 380px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.b-box h3{
+    position: absolute;
+    left: 152px;
+    top: 10px;
+    font-size: small;
+}
+.b-box p{
+    position: absolute;
+    left: 152px;
+    top:40px;
+    font-size:small;
+    text-align: left;
+}
+.c-box .c-right h4{
+    position: absolute;
+    top: 98px;
+    left: 195px;
+}
+.c-box .c-right p{
+    text-align: left;
+    position: absolute;
+    top:120px ;
+    left: 195px;
+}
+.c-box .c-left{
+    text-align: left;
+    position: absolute;
+    top: 115px;
+    left:150px ;
+}
+.d-box .d-right h4{
+    text-align: left;
+    position: absolute;
+    top:150px;
+    left:200px ;
+}
+.d-box .d-right p{
+    text-align: left;
+    position: absolute;
+    top:173px;
+    left:200px ;
+}
+.d-box .d-left{
+    text-align: left;
+    position: absolute;
+    top:170px;
+    left:150px ;
+}
+.e-box .e-right h4{
+    text-align: left;
+    position: absolute;
+    top:200px;
+    left:200px ;
+}
+.e-box .e-right p{
+    text-align: left;
+    position: absolute;
+    top:222px;
+    left:200px ;
+}
+.e-box .e-left{
+    text-align: left;
+    position: absolute;
+    top:217px;
+    left:158px ;
+}
+.f-box p{
+    text-align: left;
+    position: absolute;
+    top:250px;
+    left:144px ;
+}
+.h-box p{
+    color:#7cc577;
+    font-size: smaller;
+    text-align: left;
+    position: absolute;
+    top: 295px;
+    left: 143px;
+}
+.h-box i{
+    color: #7cc577;
+    text-align: left;
+    position: absolute;
+    top: 311px;
+    left: 228px;
+}
+/*******box5*******/
+.box5{
+    width:1200px;
+    height: 401px;
+    position: relative;
+    background-color: #F8F8F8;
+    top:400px;
+    right: 100px;
+    bottom:0px ;
+    margin: auto;
+}
+.box5 h2{
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 480px;
+}
+.box5 p{
+    position: absolute;
+    left: 530px;
+    top: 80px;
+    color: darkgray;
+}
+.top1 {
+    position: absolute;
+    top: 190px;
+    left: 290px;
+    color: darkgray;
+}
+.top2{
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    background-color: darkgray;
+    top: 220px;
+    left: 350px;
+}
+.top3 {
+    position: absolute;
+    top: 190px;
+    left: 600px;
+    color: darkgray;
+}
+
+.top4{ position: absolute;
+    width: 200px;
+    height: 1px;
+    background-color: darkgray;
+    top: 220px;
+    left: 700px;
+}
+.top5{
+    position: absolute;
+    top: 190px;
+    left: 910px;
+    color: darkgray;
+}
+.top6 h4{
+    position: absolute;
+    top:240px;
+    left: 240px;
+
+}
+.top6 p {
+    position: absolute;
+    top: 280px;
+    left: 200px;
+    font-size: x-small;
+    color: darkgray;
+}
+.top7 h4 {
+    position: absolute;
+    top: 240px;
+    left:550px;
+}
+.top7 p{
+    position: absolute;
+    top: 280px;
+    left: 530px;
+    font-size: x-small;
+    color: darkgray;
+}
+.top8 h4 {
+    position: absolute;
+    top: 240px;
+    left:870px;
+}
+.top8 p{
+    position: absolute;
+    top: 280px;
+    left: 820px;
+    font-size: x-small;
+    color: darkgray;
+}
+/******box6******/
+.box6{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    right: 100px;
+    top: 400px;
+}
+.box6 h2{
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 480px;
+}
+.box6 p{
+    position: absolute;
+    left: 530px;
+    top: 80px;
+    color: darkgray;
+}
+.box6 .mab{
+    width: 900px;
+    height: 230px;
+}
+.man .circle{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: absolute;
+    top:110px;
+    left: 220px;
+    background: url("./project/ll.jpg")  no-repeat;
+    background-size: 200px 200px;
+}
+.man .kadr {
+    width:500px ;
+    height: 150px;
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    background-image: url("./project/ax.jpg");
+    background-repeat: no-repeat;
+    background-size:460px  130px;
+}
+.man .kadr p {
+    position: absolute;
+    width: 400px;
+    top: 30px;
+    left: 40px;
+    text-align: center;
+}
+
+.box6 .woman{
+    width: 1000px;
+    height: 260px;
+    background-color: white;
+}
+.woman .circle{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: absolute;
+    top: 280px;
+    left:680px;
+    background: url("./project/kk.jpg") no-repeat;
+    background-size: 200px 200px;
+}
+.woman .kadr{
+    width:470px ;
+    height: 150px;
+    position: absolute;
+    top:300px;
+    left:140px;
+    background:  url("./project/cx.jpg") no-repeat;
+    background-size:460px  130px;
+}
+.woman .kadr p{
+    position: absolute;
+    width: 400px;
+    top:20px ;
+    left: 50px;
+    text-align: center;
+}
+p span{
+    color: #7BC476;
+}
+/********box6*******/
+/********box7*******/
+.box7{
+    width: 1200px;
+    height: 200px;
+    background-color: #7BC476;
+    margin: auto;
+    position: relative;
+    top: 372px;
+    right: 100px;
+}
+.box7 h2{
+    color: white;
+    font-size:xx-large;
+    position: absolute;
+    top: 10px;
+    left: 280px;
+}
+.box7 button{
+    color: white;
+    background-color: #7BC476;
+    width: 130px;
+    height: 35px;
+    border-radius:4px;
+    border: white solid 2px;
+    display: block;
+    position: absolute;
+    top: 125px;
+    left: 540px;
+}
+/*******box7********/
+/*******box8********/
+.box8{
+    width: 1200px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    top: 356px;
+    right:100px ;
+}
+.box8 ul li {
+    display: inline-block;
+}
+.box8 ul li:hover{
+    opacity: 0.5;
+}
+.box8 div{
+    width: 210px;
+    height: 70px;;
+}
+.box8 div.yek
+{
+    background: url("./project/1.png") no-repeat;
+    position: absolute;
+    top: 28px;
+    right: 800px;
+}
+.box8 div.do
+{background: url("./project/2.png") no-repeat;
+    position: absolute;
+    top: 30px;
+    right: 600px;
+}
+.box8 div.se
+{background: url("./project/3.png") no-repeat;
+    position: absolute;
+    top: 30px;
+    right: 400px;
+}
+.box8 div.char
+{background: url("./project/4.png") no-repeat;
+    position: absolute;
+    top: 30px;
+    right: 200px;
+}
+/*******box8********/
+/*******box9********/
+.box9{
+    width: 1200px;
+    height: 250px;
+    position: relative;
+    top: 356px;
+    right: 100px;
+    background-color:#222222 ;
+}
+.x-1 h3{
+    position: absolute;
+    top: 20px;
+    left:180px;
+    color: darkgray;
+}
+.foot-1 i{
+    position: absolute;
+    top: 85px;
+    left: 180px;
+    color: darkgray;
+}
+.foot-1 p{
+    position: absolute;
+    top: 70px;
+    left:210px;
+    color: darkgray;
+}
+.foot-2 i{
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: darkgray;
+}
+.foot-2 p{
+    position: absolute;
+    top: 120px;
+    left:210px;
+    color: darkgray;
+}
+.foot-3 i{
+    position: absolute;
+    top: 160px;
+    left: 180px;
+    color: darkgray;
+}
+.foot-3 p{
+    position: absolute;
+    top:150px;
+    left:210px;
+    color: darkgray;
+}
+.x-2 h3{
+    position: absolute;
+    top: 20px;
+    left:520px;
+    color: darkgray;
+}
+.foot-4 i{
+    position: absolute;
+    top: 85px;
+    left: 520px;
+    color: darkgray;
+}
+.foot-4 p{
+    position: absolute;
+    top: 70px;
+    left:550px;
+    color: darkgray;
+}
+.foot-5 i{
+    position: absolute;
+    top: 110px;
+    left: 520px;
+    color: darkgray;
+}
+.foot-5 p{
+    position: absolute;
+    top:95px;
+    left:540px;
+    color: darkgray;
+}
+.foot-6 i{
+    position: absolute;
+    top: 140px;
+    left: 520px;
+    color: darkgray;
+}
+.foot-6 p{
+    position: absolute;
+    top:127px;
+    left:545px;
+    color: darkgray;
+}
+.foot-7 i{
+    position: absolute;
+    top: 162px;
+    left: 520px;
+    color: darkgray;
+}
+.foot-7 p{
+    position: absolute;
+    top:150px;
+    left:544px;
+    color: darkgray;
+}
+.foot-8 i{
+    position: absolute;
+    top: 183px;
+    left: 520px;
+    color: darkgray;
+}
+.foot-8 p{
+    position: absolute;
+    top:178px;
+    left:542px;
+    color: darkgray;
+}
+.x-3 h3{
+    position: absolute;
+    top: 20px;
+    left:850px;
+    color: darkgray;
+}
+.foot-9 i{
+    position: absolute;
+    top: 80px;
+    left: 850px;
+    color: darkgray;
+}
+.foot-9 p {
+    position: absolute;
+    top: 62px;
+    left:870px;
+    color: darkgray;
+    text-align: left;
+}.foot-10 i{
+     position: absolute;
+     top:165px;
+     left: 850px;
+     color: darkgray;
+ }
+.foot-10 p {
+    position: absolute;
+    top: 150px;
+    left:870px;
+    color: darkgray;
+    text-align: left;
+}
+/******box9********/
+/******box10********/
+.box10{
+    width:1200px ;
+    height: 80px;
+    /*margin: auto;*/
+    position: relative;
+    top: 356px;
+    right: 100px;
+    background-color: white;
+}
+.chap{
+    position: absolute;
+    width: 40%;
+    left: 0;
+}
+.chap p{
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    /*padding-left: 200px;*/
+    font-size: small;
+    color: darkgray;
+}
+.rast {
+    position: absolute;
+    top: 20px;
+    left: 490px;
+}
+/******box10******/
